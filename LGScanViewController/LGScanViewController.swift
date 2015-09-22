@@ -86,7 +86,7 @@ class LGScanViewController: UIViewController , AVCaptureMetadataOutputObjectsDel
             session.addOutput(output)
         }
         
-        output.metadataObjectTypes = [AVMetadataObjectTypeQRCode, AVMetadataObjectTypeEAN13Code]
+        output.metadataObjectTypes = [AVMetadataObjectTypeQRCode, AVMetadataObjectTypeEAN13Code, AVMetadataObjectTypeEAN8Code, AVMetadataObjectTypeCode128Code]
         
         preView = AVCaptureVideoPreviewLayer(session: session)
         preView.videoGravity = AVLayerVideoGravityResizeAspectFill
