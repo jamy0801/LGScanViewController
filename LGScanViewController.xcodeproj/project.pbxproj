@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3517CD9F1BB127570039DC46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517CD9E1BB127570039DC46 /* AppDelegate.swift */; };
+		3517CDA11BB127570039DC46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517CDA01BB127570039DC46 /* ViewController.swift */; };
+		3517CDA41BB127570039DC46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3517CDA21BB127570039DC46 /* Main.storyboard */; };
+		3517CDA61BB127570039DC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3517CDA51BB127570039DC46 /* Assets.xcassets */; };
+		3517CDA91BB127570039DC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3517CDA71BB127570039DC46 /* LaunchScreen.storyboard */; };
+		3517CDB41BB127570039DC46 /* LGScanViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517CDB31BB127570039DC46 /* LGScanViewControllerTests.swift */; };
+		3517CDBF1BB127570039DC46 /* LGScanViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517CDBE1BB127570039DC46 /* LGScanViewControllerUITests.swift */; };
+		3517CDCD1BB1277E0039DC46 /* LGScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517CDCC1BB1277E0039DC46 /* LGScanViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3517CDB01BB127570039DC46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3517CD931BB127570039DC46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3517CD9A1BB127570039DC46;
+			remoteInfo = LGScanViewController;
+		};
+		3517CDBB1BB127570039DC46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3517CD931BB127570039DC46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3517CD9A1BB127570039DC46;
+			remoteInfo = LGScanViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3517CD9B1BB127570039DC46 /* LGScanViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGScanViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3517CD9E1BB127570039DC46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3517CDA01BB127570039DC46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3517CDA31BB127570039DC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3517CDA51BB127570039DC46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3517CDA81BB127570039DC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3517CDAA1BB127570039DC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3517CDAF1BB127570039DC46 /* LGScanViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGScanViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3517CDB31BB127570039DC46 /* LGScanViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGScanViewControllerTests.swift; sourceTree = "<group>"; };
+		3517CDB51BB127570039DC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3517CDBA1BB127570039DC46 /* LGScanViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGScanViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3517CDBE1BB127570039DC46 /* LGScanViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGScanViewControllerUITests.swift; sourceTree = "<group>"; };
+		3517CDC01BB127570039DC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3517CDCC1BB1277E0039DC46 /* LGScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGScanViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3517CD981BB127570039DC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3517CDAC1BB127570039DC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3517CDB71BB127570039DC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3517CD921BB127570039DC46 = {
+			isa = PBXGroup;
+			children = (
+				3517CD9D1BB127570039DC46 /* LGScanViewController */,
+				3517CDB21BB127570039DC46 /* LGScanViewControllerTests */,
+				3517CDBD1BB127570039DC46 /* LGScanViewControllerUITests */,
+				3517CD9C1BB127570039DC46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3517CD9C1BB127570039DC46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3517CD9B1BB127570039DC46 /* LGScanViewController.app */,
+				3517CDAF1BB127570039DC46 /* LGScanViewControllerTests.xctest */,
+				3517CDBA1BB127570039DC46 /* LGScanViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3517CD9D1BB127570039DC46 /* LGScanViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3517CDCC1BB1277E0039DC46 /* LGScanViewController.swift */,
+				3517CD9E1BB127570039DC46 /* AppDelegate.swift */,
+				3517CDA01BB127570039DC46 /* ViewController.swift */,
+				3517CDA21BB127570039DC46 /* Main.storyboard */,
+				3517CDA51BB127570039DC46 /* Assets.xcassets */,
+				3517CDA71BB127570039DC46 /* LaunchScreen.storyboard */,
+				3517CDAA1BB127570039DC46 /* Info.plist */,
+			);
+			path = LGScanViewController;
+			sourceTree = "<group>";
+		};
+		3517CDB21BB127570039DC46 /* LGScanViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3517CDB31BB127570039DC46 /* LGScanViewControllerTests.swift */,
+				3517CDB51BB127570039DC46 /* Info.plist */,
+			);
+			path = LGScanViewControllerTests;
+			sourceTree = "<group>";
+		};
+		3517CDBD1BB127570039DC46 /* LGScanViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3517CDBE1BB127570039DC46 /* LGScanViewControllerUITests.swift */,
+				3517CDC01BB127570039DC46 /* Info.plist */,
+			);
+			path = LGScanViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3517CD9A1BB127570039DC46 /* LGScanViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3517CDC31BB127570039DC46 /* Build configuration list for PBXNativeTarget "LGScanViewController" */;
+			buildPhases = (
+				3517CD971BB127570039DC46 /* Sources */,
+				3517CD981BB127570039DC46 /* Frameworks */,
+				3517CD991BB127570039DC46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGScanViewController;
+			productName = LGScanViewController;
+			productReference = 3517CD9B1BB127570039DC46 /* LGScanViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3517CDAE1BB127570039DC46 /* LGScanViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3517CDC61BB127570039DC46 /* Build configuration list for PBXNativeTarget "LGScanViewControllerTests" */;
+			buildPhases = (
+				3517CDAB1BB127570039DC46 /* Sources */,
+				3517CDAC1BB127570039DC46 /* Frameworks */,
+				3517CDAD1BB127570039DC46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3517CDB11BB127570039DC46 /* PBXTargetDependency */,
+			);
+			name = LGScanViewControllerTests;
+			productName = LGScanViewControllerTests;
+			productReference = 3517CDAF1BB127570039DC46 /* LGScanViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3517CDB91BB127570039DC46 /* LGScanViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3517CDC91BB127570039DC46 /* Build configuration list for PBXNativeTarget "LGScanViewControllerUITests" */;
+			buildPhases = (
+				3517CDB61BB127570039DC46 /* Sources */,
+				3517CDB71BB127570039DC46 /* Frameworks */,
+				3517CDB81BB127570039DC46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3517CDBC1BB127570039DC46 /* PBXTargetDependency */,
+			);
+			name = LGScanViewControllerUITests;
+			productName = LGScanViewControllerUITests;
+			productReference = 3517CDBA1BB127570039DC46 /* LGScanViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3517CD931BB127570039DC46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = jamy;
+				TargetAttributes = {
+					3517CD9A1BB127570039DC46 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					3517CDAE1BB127570039DC46 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3517CD9A1BB127570039DC46;
+					};
+					3517CDB91BB127570039DC46 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3517CD9A1BB127570039DC46;
+					};
+				};
+			};
+			buildConfigurationList = 3517CD961BB127570039DC46 /* Build configuration list for PBXProject "LGScanViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3517CD921BB127570039DC46;
+			productRefGroup = 3517CD9C1BB127570039DC46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3517CD9A1BB127570039DC46 /* LGScanViewController */,
+				3517CDAE1BB127570039DC46 /* LGScanViewControllerTests */,
+				3517CDB91BB127570039DC46 /* LGScanViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3517CD991BB127570039DC46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3517CDA91BB127570039DC46 /* LaunchScreen.storyboard in Resources */,
+				3517CDA61BB127570039DC46 /* Assets.xcassets in Resources */,
+				3517CDA41BB127570039DC46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3517CDAD1BB127570039DC46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3517CDB81BB127570039DC46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3517CD971BB127570039DC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3517CDCD1BB1277E0039DC46 /* LGScanViewController.swift in Sources */,
+				3517CDA11BB127570039DC46 /* ViewController.swift in Sources */,
+				3517CD9F1BB127570039DC46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3517CDAB1BB127570039DC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3517CDB41BB127570039DC46 /* LGScanViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3517CDB61BB127570039DC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3517CDBF1BB127570039DC46 /* LGScanViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3517CDB11BB127570039DC46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3517CD9A1BB127570039DC46 /* LGScanViewController */;
+			targetProxy = 3517CDB01BB127570039DC46 /* PBXContainerItemProxy */;
+		};
+		3517CDBC1BB127570039DC46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3517CD9A1BB127570039DC46 /* LGScanViewController */;
+			targetProxy = 3517CDBB1BB127570039DC46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3517CDA21BB127570039DC46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3517CDA31BB127570039DC46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3517CDA71BB127570039DC46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3517CDA81BB127570039DC46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3517CDC11BB127570039DC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3517CDC21BB127570039DC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3517CDC41BB127570039DC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGScanViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamy.LGScanViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3517CDC51BB127570039DC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGScanViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamy.LGScanViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3517CDC71BB127570039DC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGScanViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamy.LGScanViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGScanViewController.app/LGScanViewController";
+			};
+			name = Debug;
+		};
+		3517CDC81BB127570039DC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGScanViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamy.LGScanViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGScanViewController.app/LGScanViewController";
+			};
+			name = Release;
+		};
+		3517CDCA1BB127570039DC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGScanViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamy.LGScanViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGScanViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3517CDCB1BB127570039DC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGScanViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamy.LGScanViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGScanViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3517CD961BB127570039DC46 /* Build configuration list for PBXProject "LGScanViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3517CDC11BB127570039DC46 /* Debug */,
+				3517CDC21BB127570039DC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3517CDC31BB127570039DC46 /* Build configuration list for PBXNativeTarget "LGScanViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3517CDC41BB127570039DC46 /* Debug */,
+				3517CDC51BB127570039DC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3517CDC61BB127570039DC46 /* Build configuration list for PBXNativeTarget "LGScanViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3517CDC71BB127570039DC46 /* Debug */,
+				3517CDC81BB127570039DC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3517CDC91BB127570039DC46 /* Build configuration list for PBXNativeTarget "LGScanViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3517CDCA1BB127570039DC46 /* Debug */,
+				3517CDCB1BB127570039DC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3517CD931BB127570039DC46 /* Project object */;
+}
