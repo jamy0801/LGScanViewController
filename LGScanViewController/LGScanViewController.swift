@@ -215,7 +215,6 @@ class LGScanViewController: UIViewController , AVCaptureMetadataOutputObjectsDel
     func showScanCode(code: String) {
         print("\(code)")
     }
-    
 }
 
 
